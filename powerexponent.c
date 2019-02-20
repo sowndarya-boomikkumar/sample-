@@ -2,14 +2,14 @@
 #include<conio.h>
 int main()
 {
-    int base, exponent;
+    int BASE, EXPONENT;
     long long result = 1;
-    scanf("%d", &base);
-    scanf("%d", &exponent);
-    while (exponent != 0)
+    scanf("%d", &BASE);
+    scanf("%d", & EXPONENT);
+    while ( EXPONENT != 0)
     {
-        result *= base;
-        --exponent;
+        result *= BASE;
+         EXPONENT;
     }
    getch();
 }
