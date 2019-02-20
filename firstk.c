@@ -1,5 +1,12 @@
 #include<stdio.h>
 #include<conio.h>
+void main()
+{
+  int a,b; 
+printf("enter the value of k");
+scanf("%d",&a);
+printf("enter the value of n");
+scanf("%d",&b);
 static int findSum(int N, int K) 
 { 
   int ans = 0;
